@@ -1,0 +1,50 @@
+nav i.fa{
+    display: none;
+}
+
+.video-info h1{
+font-family: ;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 2px solid #ffffff;
+    padding: 5px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+border: 1px solid #f44336;
+background: #f44336;
+transition: 0.7s;
+}
+
+.card{
+    width: 100%;
+    margin: auto;
+}
+
+@media(max-width: 700px){
+    .body nav i ul a{
+        font-size: xxx-small;
+        margin-bottom: 1rem;
+    }
+
+    .video-info h1{
+        font-size: 20px;
+    }
+
+    .video-info h2{
+        font-size: 16px;
+    }
+
+    .video-info h3{
+        font-size: 5px;
+    }
+
+})
